@@ -37,7 +37,7 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_virtualenv():
+def virtualenv():
     """
     Nueva definicion --> VirtualEnv 
     """
@@ -49,4 +49,4 @@ def agregar_definicion_virtualenv():
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-    agregar_definicion_virtualenv()  #
+    virtualenv()  #
